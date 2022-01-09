@@ -1,3 +1,4 @@
-# Leetcode daily challenges
+# LeetCode daily challenges
 
-- [x] car pooling
+- [x] Car Pooling
+- [x] Robot Bounded In Circle
