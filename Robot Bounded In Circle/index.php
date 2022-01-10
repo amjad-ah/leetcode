@@ -12,17 +12,7 @@ class Solution
      * @var integer
      */
     private $face = 0;
-    /**
-     * X point location
-     *
-     * @var integer
-     */
     private $x = 0;
-    /**
-     * Y point location
-     *
-     * @var integer
-     */
     private $y = 0;
 
     public function isRobotBounded(string $instructions): bool
@@ -41,12 +31,9 @@ class Solution
 
     private function executeInstruction(string $instruction): void
     {
-        if ($instruction != 'G') {
-            $this->turnRobot($instruction);
-            return;
-        }
-
-        $this->moveRobot();
+        ($instruction != 'G')
+            ? $this->turnRobot($instruction)
+            : $this->moveRobot();
     }
 
     private function turnRobot(string $direction): void
