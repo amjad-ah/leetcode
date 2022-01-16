@@ -6,3 +6,5 @@
 - [x] Insert into a Binary Search Tree
 - [x] Minimum Number of Arrows to Burst Balloons
 - [x] String to Integer (atoi)
+- [ ] Jump Game IV
+- [x] Maximize Distance to Closest Person
