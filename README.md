@@ -9,3 +9,4 @@
 - [ ] Jump Game IV
 - [x] Maximize Distance to Closest Person
 - [x] Best Time to Buy and Sell Stock
+- [x] Find All Anagrams in a String
